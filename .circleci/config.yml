@@ -1,0 +1,10 @@
+version:2.1
+jobs:
+ <job_name>:
+  docker:
+  steps:
+   - checkout
+   - run:
+workflows:
+ <workflow_name>:
+ jobs:
